@@ -14,12 +14,12 @@ from ShizukaXMusic import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
 from ShizukaXMusic.core.call import Shizuka
 from ShizukaXMusic.utils import seconds_to_min, time_to_seconds
-from Shizuka.utils.channelplay import get_channeplayCB
-from Shizuka.utils.database import is_video_allowed
-from Shizuka.utils.decorators.language import languageCB
-from Shizuka.utils.decorators.play import PlayWrapper
-from Shizuka.utils.formatters import formats
-from Shizuka.utils.inline.play import (livestream_markup,
+from ShizukaXMusic.utils.channelplay import get_channeplayCB
+from ShizukaXMusic.utils.database import is_video_allowed
+from ShizukaXMusic.utils.decorators.language import languageCB
+from ShizukaXMusic.utils.decorators.play import PlayWrapper
+from ShizukaXMusic.utils.formatters import formats
+from ShizukaXMusic.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
 from ShizukaXMusic.utils.inline.playlist import botplaylist_markup
